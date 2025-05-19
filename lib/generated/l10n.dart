@@ -244,6 +244,136 @@ class S {
       args: [],
     );
   }
+
+  /// `Login`
+  String get loginPageTitle {
+    return Intl.message('Login', name: 'loginPageTitle', desc: '', args: []);
+  }
+
+  /// `Email`
+  String get email {
+    return Intl.message('Email', name: 'email', desc: '', args: []);
+  }
+
+  /// `Password`
+  String get password {
+    return Intl.message('Password', name: 'password', desc: '', args: []);
+  }
+
+  /// `Login`
+  String get login {
+    return Intl.message('Login', name: 'login', desc: '', args: []);
+  }
+
+  /// `Register`
+  String get register {
+    return Intl.message('Register', name: 'register', desc: '', args: []);
+  }
+
+  /// `Forgot password?`
+  String get forgotPassword {
+    return Intl.message(
+      'Forgot password?',
+      name: 'forgotPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login failed`
+  String get loginFailed {
+    return Intl.message(
+      'Login failed',
+      name: 'loginFailed',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please login or register`
+  String get pleaseLoginOrRegister {
+    return Intl.message(
+      'Please login or register',
+      name: 'pleaseLoginOrRegister',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please enter email`
+  String get pleaseEnterEmail {
+    return Intl.message(
+      'Please enter email',
+      name: 'pleaseEnterEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please enter valid email`
+  String get pleaseEnterValidEmail {
+    return Intl.message(
+      'Please enter valid email',
+      name: 'pleaseEnterValidEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please enter password`
+  String get pleaseEnterPassword {
+    return Intl.message(
+      'Please enter password',
+      name: 'pleaseEnterPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login`
+  String get loginButtonText {
+    return Intl.message('Login', name: 'loginButtonText', desc: '', args: []);
+  }
+
+  /// `No account? Register`
+  String get noAccountRegister {
+    return Intl.message(
+      'No account? Register',
+      name: 'noAccountRegister',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Navigate to register todo`
+  String get navigateToRegisterTodo {
+    return Intl.message(
+      'Navigate to register todo',
+      name: 'navigateToRegisterTodo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forgot password?`
+  String get forgotPasswordLink {
+    return Intl.message(
+      'Forgot password?',
+      name: 'forgotPasswordLink',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Navigate to forgot password todo`
+  String get navigateToForgotPasswordTodo {
+    return Intl.message(
+      'Navigate to forgot password todo',
+      name: 'navigateToForgotPasswordTodo',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

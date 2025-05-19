@@ -32,10 +32,15 @@ class MessageLookup extends MessageLookupByLibrary {
     "app_theme": MessageLookupByLibrary.simpleMessage("Theme"),
     "dark_theme": MessageLookupByLibrary.simpleMessage("Dark"),
     "default_theme": MessageLookupByLibrary.simpleMessage("Default"),
+    "email": MessageLookupByLibrary.simpleMessage("Email"),
     "english": MessageLookupByLibrary.simpleMessage("English"),
     "familyMT": MessageLookupByLibrary.simpleMessage("Family"),
     "fastMT": MessageLookupByLibrary.simpleMessage("Fast"),
     "foodList": MessageLookupByLibrary.simpleMessage("List"),
+    "forgotPassword": MessageLookupByLibrary.simpleMessage("Forgot password?"),
+    "forgotPasswordLink": MessageLookupByLibrary.simpleMessage(
+      "Forgot password?",
+    ),
     "gram": MessageLookupByLibrary.simpleMessage("g"),
     "homepageTitle": MessageLookupByLibrary.simpleMessage(
       "Flutter Demo Home Page",
@@ -49,12 +54,39 @@ class MessageLookup extends MessageLookupByLibrary {
     "lentenMT": MessageLookupByLibrary.simpleMessage("Lenten"),
     "light_theme": MessageLookupByLibrary.simpleMessage("Light"),
     "liter": MessageLookupByLibrary.simpleMessage("l"),
+    "login": MessageLookupByLibrary.simpleMessage("Login"),
+    "loginButtonText": MessageLookupByLibrary.simpleMessage("Login"),
+    "loginFailed": MessageLookupByLibrary.simpleMessage("Login failed"),
+    "loginPageTitle": MessageLookupByLibrary.simpleMessage("Login"),
     "mealList": MessageLookupByLibrary.simpleMessage("Meal List"),
     "milliliter": MessageLookupByLibrary.simpleMessage("ml"),
+    "navigateToForgotPasswordTodo": MessageLookupByLibrary.simpleMessage(
+      "Navigate to forgot password todo",
+    ),
+    "navigateToRegisterTodo": MessageLookupByLibrary.simpleMessage(
+      "Navigate to register todo",
+    ),
+    "noAccountRegister": MessageLookupByLibrary.simpleMessage(
+      "No account? Register",
+    ),
+    "password": MessageLookupByLibrary.simpleMessage("Password"),
     "piece": MessageLookupByLibrary.simpleMessage("pcs"),
+    "pleaseEnterEmail": MessageLookupByLibrary.simpleMessage(
+      "Please enter email",
+    ),
+    "pleaseEnterPassword": MessageLookupByLibrary.simpleMessage(
+      "Please enter password",
+    ),
+    "pleaseEnterValidEmail": MessageLookupByLibrary.simpleMessage(
+      "Please enter valid email",
+    ),
+    "pleaseLoginOrRegister": MessageLookupByLibrary.simpleMessage(
+      "Please login or register",
+    ),
     "productList": MessageLookupByLibrary.simpleMessage("Products"),
     "profile": MessageLookupByLibrary.simpleMessage("Profile"),
     "recipesList": MessageLookupByLibrary.simpleMessage("Recipes"),
+    "register": MessageLookupByLibrary.simpleMessage("Register"),
     "russian": MessageLookupByLibrary.simpleMessage("Русский"),
     "selectMenuType": MessageLookupByLibrary.simpleMessage("Select menu type"),
     "settings": MessageLookupByLibrary.simpleMessage("Settings"),

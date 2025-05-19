@@ -30,5 +30,21 @@
   "familyMT": "Семейное",
   "fastMT": "Быстрое",
   "aiGeneratedMT": "Сгенерированное ИИ",
-  "selectMenuType": "Выберите тип меню"
+  "selectMenuType": "Выберите тип меню",
+  "loginPageTitle": "Вход",
+  "email": "Email",
+  "password": "Пароль",
+  "login": "Вход",
+  "register": "Регистрация",
+  "forgotPassword": "Забыли пароль?",
+  "loginFailed": "Вход не удался",
+  "pleaseLoginOrRegister": "Пожалуйста, войдите или зарегистрируйтесь",
+  "pleaseEnterEmail": "Пожалуйста, введите email",
+  "pleaseEnterValidEmail": "Пожалуйста, введите корректный email",
+  "pleaseEnterPassword": "Пожалуйста, введите пароль",
+  "loginButtonText": "Вход",
+  "noAccountRegister": "Нет аккаунта? Зарегистрируйтесь",
+  "navigateToRegisterTodo": "Переход на регистрацию",
+  "forgotPasswordLink": "Забыли пароль?",
+  "navigateToForgotPasswordTodo": "Переход на восстановление пароля"
 }

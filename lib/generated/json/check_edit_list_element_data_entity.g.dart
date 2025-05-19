@@ -1,5 +1,5 @@
 import 'package:listed_food/generated/json/base/json_convert_content.dart';
-import 'package:listed_food/widgets/check_edit_list/check_edit_list_element_data_entity.dart';
+import 'package:listed_food/presentation/widgets/check_edit_list/check_edit_list_element_data_entity.dart';
 
 CheckEditListElementDataEntity $CheckEditListElementDataEntityFromJson(
   Map<String, dynamic> json,

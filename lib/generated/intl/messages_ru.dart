@@ -32,10 +32,15 @@ class MessageLookup extends MessageLookupByLibrary {
     "app_theme": MessageLookupByLibrary.simpleMessage("Тема"),
     "dark_theme": MessageLookupByLibrary.simpleMessage("Темная"),
     "default_theme": MessageLookupByLibrary.simpleMessage("По умолчанию"),
+    "email": MessageLookupByLibrary.simpleMessage("Email"),
     "english": MessageLookupByLibrary.simpleMessage("English"),
     "familyMT": MessageLookupByLibrary.simpleMessage("Семейное"),
     "fastMT": MessageLookupByLibrary.simpleMessage("Быстрое"),
     "foodList": MessageLookupByLibrary.simpleMessage("Список"),
+    "forgotPassword": MessageLookupByLibrary.simpleMessage("Забыли пароль?"),
+    "forgotPasswordLink": MessageLookupByLibrary.simpleMessage(
+      "Забыли пароль?",
+    ),
     "gram": MessageLookupByLibrary.simpleMessage("г"),
     "homepageTitle": MessageLookupByLibrary.simpleMessage(
       "Демо домашняя страница",
@@ -49,12 +54,39 @@ class MessageLookup extends MessageLookupByLibrary {
     "lentenMT": MessageLookupByLibrary.simpleMessage("Постное"),
     "light_theme": MessageLookupByLibrary.simpleMessage("Светлая"),
     "liter": MessageLookupByLibrary.simpleMessage("л"),
+    "login": MessageLookupByLibrary.simpleMessage("Вход"),
+    "loginButtonText": MessageLookupByLibrary.simpleMessage("Вход"),
+    "loginFailed": MessageLookupByLibrary.simpleMessage("Вход не удался"),
+    "loginPageTitle": MessageLookupByLibrary.simpleMessage("Вход"),
     "mealList": MessageLookupByLibrary.simpleMessage("Список блюд"),
     "milliliter": MessageLookupByLibrary.simpleMessage("мл"),
+    "navigateToForgotPasswordTodo": MessageLookupByLibrary.simpleMessage(
+      "Переход на восстановление пароля",
+    ),
+    "navigateToRegisterTodo": MessageLookupByLibrary.simpleMessage(
+      "Переход на регистрацию",
+    ),
+    "noAccountRegister": MessageLookupByLibrary.simpleMessage(
+      "Нет аккаунта? Зарегистрируйтесь",
+    ),
+    "password": MessageLookupByLibrary.simpleMessage("Пароль"),
     "piece": MessageLookupByLibrary.simpleMessage("шт"),
+    "pleaseEnterEmail": MessageLookupByLibrary.simpleMessage(
+      "Пожалуйста, введите email",
+    ),
+    "pleaseEnterPassword": MessageLookupByLibrary.simpleMessage(
+      "Пожалуйста, введите пароль",
+    ),
+    "pleaseEnterValidEmail": MessageLookupByLibrary.simpleMessage(
+      "Пожалуйста, введите корректный email",
+    ),
+    "pleaseLoginOrRegister": MessageLookupByLibrary.simpleMessage(
+      "Пожалуйста, войдите или зарегистрируйтесь",
+    ),
     "productList": MessageLookupByLibrary.simpleMessage("Список продуктов"),
     "profile": MessageLookupByLibrary.simpleMessage("Профиль"),
     "recipesList": MessageLookupByLibrary.simpleMessage("Рецепты"),
+    "register": MessageLookupByLibrary.simpleMessage("Регистрация"),
     "russian": MessageLookupByLibrary.simpleMessage("Русский"),
     "selectMenuType": MessageLookupByLibrary.simpleMessage("Выберите тип меню"),
     "settings": MessageLookupByLibrary.simpleMessage("Настройки"),

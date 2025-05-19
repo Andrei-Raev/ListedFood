@@ -30,5 +30,21 @@
   "familyMT": "Family",
   "fastMT": "Fast",
   "aiGeneratedMT": "AI Generated",
-  "selectMenuType": "Select menu type"
+  "selectMenuType": "Select menu type",
+  "loginPageTitle": "Login",
+  "email": "Email",
+  "password": "Password",
+  "login": "Login",
+  "register": "Register",
+  "forgotPassword": "Forgot password?",
+  "loginFailed": "Login failed",
+  "pleaseLoginOrRegister": "Please login or register",
+  "pleaseEnterEmail": "Please enter email",
+  "pleaseEnterValidEmail": "Please enter valid email",
+  "pleaseEnterPassword": "Please enter password",
+  "loginButtonText": "Login",
+  "noAccountRegister": "No account? Register",
+  "navigateToRegisterTodo": "Navigate to register todo",
+  "forgotPasswordLink": "Forgot password?",
+  "navigateToForgotPasswordTodo": "Navigate to forgot password todo"
 }
