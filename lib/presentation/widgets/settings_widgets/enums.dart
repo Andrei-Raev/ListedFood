@@ -1,0 +1,1 @@
+enum MenuTypesEnum { any, vegetarian, lenten, family, fast, aiGenerated } 

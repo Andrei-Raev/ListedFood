@@ -1,0 +1,96 @@
+# Полная структура Flutter–приложения по Clean Architecture
+
+my_app/
+├── android/                   # Android-часть (генерируется Flutter)
+├── ios/                       # iOS-часть (генерируется Flutter)
+├── macos/                     # macOS-часть (опционально)
+├── linux/                     # Linux-часть (опционально)
+├── windows/                   # Windows-часть (опционально)
+├── web/                       # Web-часть (опционально)
+├── build/                     # Автосгенерированные артефакты сборки
+├── test/                      # Unit и widget-тесты
+│   ├── domain/
+│   ├── data/
+│   └── presentation/
+├── .gitignore
+├── pubspec.yaml               # Зависимости и метаданные проекта
+├── analysis_options.yaml      # Правила линтинга
+└── lib/
+    ├── core/                  # Общие утилиты, константы, ошибки
+    │   ├── errors/
+    │   │   └── failure.dart
+    │   ├── network/
+    │   │   ├── network_info.dart
+    │   │   └── network_info_impl.dart
+    │   ├── usecase/
+    │   │   └── usecase.dart
+    │   └── utils/
+    │       └── logger.dart
+    ├── config/                # Конфиги, flavor-параметры
+    │   ├── env.dart
+    │   └── flavor_config.dart
+    ├── di/                    # Настройка DI (GetIt / Riverpod)
+    │   └── injection_container.dart
+    ├── generated/             # Автосгенерированные файлы
+    │   └── *.g.dart
+    ├── data/                  # Реализации хранилищ и источников
+    │   ├── models/
+    │   │   └── todo_model.dart
+    │   ├── datasources/
+    │   │   ├── todo_local_data_source.dart
+    │   │   └── todo_remote_data_source.dart
+    │   ├── repositories/
+    │   │   └── todo_repository_impl.dart
+    │   └── data_module.dart   # Опциональный модуль для DI
+    ├── domain/                # Бизнес-логика и абстракции
+    │   ├── entities/
+    │   │   └── todo.dart
+    │   ├── repositories/
+    │   │   └── todo_repository.dart
+    │   └── usecases/
+    │       ├── add_todo.dart
+    │       ├── delete_todo.dart
+    │       └── fetch_todos.dart
+    └── presentation/          # UI, state-менеджмент, маршрутизация
+        ├── pages/
+        │   └── todo_page.dart
+        ├── widgets/
+        │   ├── todo_tile.dart
+        │   └── primary_button.dart
+        ├── state/            # Cubit/BLoC/Providers
+        │   ├── todo_cubit.dart
+        │   └── todo_state.dart
+        ├── routes/
+        │   └── app_router.dart
+        └── theme/
+            ├── app_colors.dart
+            └── app_text_styles.dart
+
+---
+
+## Краткие пояснения
+
+1. core/  
+   • Общие механизмы: ошибки (Failure), шаблон UseCase, NetworkInfo, логгер.  
+2. config/  
+   • Параметры окружений (dev, prod) и flavor-конфигурация.  
+3. di/  
+   • Централизованная привязка интерфейсов к реализациям, регистрация сторонних библиотек.  
+4. generated/  
+   • Файлы, созданные сборщиками (json_serializable, freezed, injectable).  
+5. data/  
+   • models/ – DTO-классы с сериализацией.  
+   • datasources/ – классы для работы с REST, БД, кэшем.  
+   • repositories/ – реализация контрактов из domain.  
+6. domain/  
+   • entities/ – чистые объекты бизнеса без зависимостей от фреймворков.  
+   • repositories/ – абстрактные интерфейсы (контракты).  
+   • usecases/ – одна операция = один класс (принцип единственной ответственности).  
+7. presentation/  
+   • pages/ – экраны/маршруты.  
+   • widgets/ – переиспользуемые контролы.  
+   • state/ – менеджеры состояния (Cubit, BLoC, Provider).  
+   • routes/ – описания навигации.  
+   • theme/ – темы, стили, локализация (l10n/).  
+
+Эта структура гарантирует чёткое разделение слоёв, гибкость развития и лёгкость тестирования.
